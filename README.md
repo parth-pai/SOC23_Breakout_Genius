@@ -1,7 +1,7 @@
 # SOC23_Breakout_Genius
 WnCC SOC Season of Code - Breakout Genius: Using RL to Build AI game master
 
-Explanation of the final code which will be implemented:
+Explanation of the final code which implemented:
 1) make_env function will be used to create an environment for the Atari game. it uses AtariPreprocessing, FrameStack, and TransformReward
 2) DQNAgent class consists of Convolutional and linear layers and includes methods for obtaining Q-values, sample actions, etc.
 3) ReplayBuffer Class is used to store and manage replay buffers, required for training the DQN.
