@@ -11,6 +11,7 @@ Explanation of the Training code implemented:
 7) Model is saved at regular intervals.
 
 Explanation of Testing code implemented:
+A pre-trained PyTorch model trained for 9 Million steps was used for the testing and video rendering process
 1) make_env function to create an environment for the Atari game using AtariPreprocessing, FrameStack, and TransformReward.
 2) DQNAgent class consists of Convolutional and linear layers and includes methods for obtaining Q-values, sample actions, etc.
 3) Generating animation and combining it to form a video
